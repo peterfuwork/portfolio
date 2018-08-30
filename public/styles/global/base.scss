@@ -1,0 +1,48 @@
+/*
+  Base
+*/
+
+figure, blockquote, ul, ol, li, p, h1, h2, h3, h4, h5 {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    margin:0;
+    padding:0;
+  }
+  
+  ul, ol, li {
+    list-style-type:none;
+    list-style-position:inside;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+@media(min-width:1200px) {
+    .clear-left-lg {
+        clear:left;
+    }
+}
+@media(min-width:992px) {
+    .clear-left-md {
+        clear:left;
+    }
+}
+@media(min-width:768px) {
+    .clear-left-sm {
+        clear:left;
+    }
+}
+@media(min-width:480px) and (max-width:767px) {
+    .clear-left-xs {
+        clear:left;
+    }
+}
+@media(max-width:479px) {
+    .clear-left-xs {
+        clear:left;
+    }
+}

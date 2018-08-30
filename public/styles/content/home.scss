@@ -1,0 +1,109 @@
+body {
+    background-color:$color-light;
+    &.fixed {
+      nav{
+        position: fixed;
+        box-shadow: 2px 4px 4px rgba(0,0,0,0.3);
+        z-index:2;
+        top:0;
+        width: 100%;
+      }
+    }
+  }
+.wrapper {
+  max-width:1280px;
+  padding:1rem;
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  line-height: 0;
+}
+footer {
+  color:$color-light;
+  background-color:$color-dark;
+}
+
+.info {
+  @media(max-width:767px){
+    max-width: 260px;
+    margin: 0 auto;
+  }
+}
+
+p::first-letter {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+/* portfolio */
+.box {
+  .figure {
+    margin: 1em 0;
+    .portfolio-link{
+      display:block;
+      border: 1px solid #ccc;
+      position: relative;
+      overflow: hidden;
+      .desc {
+        display: flex;
+        text-align: center;
+        opacity: 1;
+        background-color: #333;
+        justify-content: center;
+        height: 0px;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        transition: 2s;
+        .skill {
+          opacity:0;
+          color:#fff;
+          transition: 2s;
+          padding: 0.5em .5em;
+          font-size: 14px;
+          line-height: 1.5;
+        }
+        .caret {
+          width: 0; 
+          height: 0; 
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-top: 10px solid #333;
+          position: absolute;
+          top: 100%;
+        }
+        &:hover {
+          height: 12%;
+          .skill {
+            opacity:1;
+          }
+        }
+      }
+      .info-box {
+        padding:1em;
+      }
+      .img-wrapper{
+        overflow: hidden;
+        border-radius: .5em;
+        text-align: center;
+        width: 100%;
+        .img:hover {
+          @include transition(transform .5s);
+          transform: scale(1.1);
+        }
+      }
+      .title, .info {
+        margin: 1em 0;
+        text-decoration:none;
+        color:#000;
+        word-wrap: break-word;
+      }
+      .info {
+        font-size:.8em;
+      }
+    }
+  }
+}
+
+
+  /* test */

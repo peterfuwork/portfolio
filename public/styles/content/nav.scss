@@ -1,0 +1,60 @@
+nav{
+  background-color:$color-dark;
+  position:relative;
+  @media(max-width:767px) {
+    display: none;
+  }
+  a {
+    display: table-cell;
+    padding: 1em;
+  }
+    a.logo {
+      max-width: 50px;
+      padding: 0 !important;
+      vertical-align: middle;
+      @include transition(transform .3s .2s);
+    }
+    a.link {
+      color:$color-light;
+      background-color:$color-dark;
+      border-top: 5px solid $color-dark;
+      @include transition(background-color .3s .2s, color .2s);
+      &:hover {
+        color:$color-green;
+        background-color:$color-light;
+        border-top: 5px solid $color-green;
+      }
+    }
+}
+.mobile-nav {
+  background-color:$color-dark;
+  position:relative;
+  display:none;
+  @media(max-width:767px) {
+    display: block;
+  }
+  .menu {
+    display:none;
+    @media(max-width:767px) {
+      display: block;
+    }
+  }
+  a {
+    display: none;
+    padding: 1em;
+  }
+  a.link {
+    color:$color-light;
+    background-color:$color-dark;
+    @include transition(background-color .3s .2s, color .2s);
+    &:hover {
+      color:$color-green;
+      background-color:$color-light;
+    }
+    &.active {
+      display:block;
+    }
+  }
+}
+
+  /* nav */
