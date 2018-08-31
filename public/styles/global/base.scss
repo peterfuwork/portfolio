@@ -31,12 +31,7 @@ figure, blockquote, ul, ol, li, p, h1, h2, h3, h4, h5 {
         clear:left;
     }
 }
-@media(min-width:768px) {
-    .clear-left-sm {
-        clear:left;
-    }
-}
-@media(min-width:480px) and (max-width:767px) {
+@media(min-width:480px) and (max-width:991px) {
     .clear-left-xs {
         clear:left;
     }

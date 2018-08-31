@@ -1,7 +1,7 @@
 nav{
   background-color:$color-dark;
   position:relative;
-  @media(max-width:767px) {
+  @media(max-width:991px) {
     display: none;
   }
   a {
@@ -30,12 +30,12 @@ nav{
   background-color:$color-dark;
   position:relative;
   display:none;
-  @media(max-width:767px) {
+  @media(max-width:991px) {
     display: block;
   }
   .menu {
     display:none;
-    @media(max-width:767px) {
+    @media(max-width:991px) {
       display: block;
     }
   }
@@ -46,6 +46,7 @@ nav{
   a.link {
     color:$color-light;
     background-color:$color-dark;
+    font-size: 1.4em;
     @include transition(background-color .3s .2s, color .2s);
     &:hover {
       color:$color-green;

@@ -66,9 +66,9 @@ p::first-letter {
         .caret {
           width: 0; 
           height: 0; 
-          border-left: 10px solid transparent;
-          border-right: 10px solid transparent;
-          border-top: 10px solid #333;
+          border-left: 20px solid transparent;
+          border-right: 20px solid transparent;
+          border-top: 20px solid #333;
           position: absolute;
           top: 100%;
         }
@@ -98,8 +98,12 @@ p::first-letter {
         color:#000;
         word-wrap: break-word;
       }
+      .title {
+        font-size: 1.2em
+      }
       .info {
-        font-size:.8em;
+        font-size:1em;
+        line-height: 1.6;
       }
     }
   }
