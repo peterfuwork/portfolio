@@ -11,5 +11,9 @@ This is Peter Fu's first npm gulp portfolio. Please go visit http://chiaen.fu.su
 ## Wireframe
 ![Portfolio Wireframe](wireframe.png)
 
+## Preview
+![Preview](preview_desktop.jpg)
+![Preview](preview_mobile.jpg)
+
 
 
