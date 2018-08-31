@@ -1,7 +1,7 @@
 # Peter Fu Portfolio
 
 ## Setup:
-1. git clone https://github.com/peterfuwork/gulp-project
+1. git clone https://github.com/peterfuwork/portfolio.git
 2. npm install
 3. npm start
 4. Go to localhost:8000 in your browser
