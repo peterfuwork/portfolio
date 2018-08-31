@@ -1,7 +1,7 @@
 # Peter Fu Portfolio
 
 ## Setup:
-1. git clone https://github.com/peterfuwork/gulp-project
+1. git clone https://github.com/peterfuwork/portfolio
 2. cd portfolio
 3. npm install
 4. npm start
