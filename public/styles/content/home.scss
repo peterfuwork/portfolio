@@ -44,6 +44,10 @@ p::first-letter {
       border: 1px solid #ccc;
       position: relative;
       overflow: hidden;
+      transition: 1s;
+      &:hover {
+        box-shadow: #ccc 0px 3px 2px;
+      }
       .desc {
         display: flex;
         text-align: center;
@@ -73,7 +77,7 @@ p::first-letter {
           top: 100%;
         }
         &:hover {
-          height: 12%;
+          height: 17%;
           .skill {
             opacity:1;
           }
@@ -106,6 +110,30 @@ p::first-letter {
         line-height: 1.6;
       }
     }
+  }
+}
+
+/* Characters json test */
+.profile-box{
+  display:flex;
+  border-top:1px solid #ccc;
+  border-right:1px solid #ccc;
+  border-left:1px solid #ccc;
+  max-width: 980px;
+  margin: 0 auto;
+  &:last-child{
+    border-bottom:1px solid #ccc;
+  }
+  .profile-img-wrapper{
+    text-align:center;
+    .profile-img {
+      max-width: 200px;
+    }
+  }
+  .profile-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

@@ -28,7 +28,4 @@ menu.on('click', function(e){
 });
 
 
-
-
-
 console.log('--> script.js');

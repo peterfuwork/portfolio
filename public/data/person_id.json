@@ -1,0 +1,60 @@
+{
+  "characters": [
+    {
+        "id": "001",
+        "name": "Son",
+        "gender": "male",
+        "job": "dancer",
+        "image": "https://dl.dropboxusercontent.com/s/040sjghpt1av4zk/Sun.png"
+    },
+    {
+        "id": "002",
+        "name": "Remon",
+        "gender": "male",
+        "job": "carpenter",
+        "image": "https://dl.dropboxusercontent.com/s/8n2c1g9wmh1c8dh/Remon.png"
+    },
+    {
+        "id": "003",
+        "name": "Clark",
+        "gender": "male",
+        "job": "hacker",
+        "image": "https://dl.dropboxusercontent.com/s/86cyi9pobqjds02/Cloak.png"
+    },
+    {
+        "id": "004",
+        "name": "Bo-An",
+        "gender": "male",
+        "job": "baseball player",
+        "image": "https://dl.dropboxusercontent.com/s/bso6rxklif568vg/Bo.png"
+    },
+    {
+        "id": "005",
+        "name": "Vanessa",
+        "gender": "female",
+        "job": "teacher",
+        "image": "https://dl.dropboxusercontent.com/s/x93iyr4u604pclg/Vennissa.png"
+    },
+    {
+        "id": "006",
+        "name": "Crystal",
+        "gender": "female",
+        "job": "Waitress",
+        "image": "https://dl.dropboxusercontent.com/s/nozskdu817x1qph/Crystal.png"
+    },
+    {
+        "id": "007",
+        "name": "Fang",
+        "gender": "female",
+        "job": "Writer",
+        "image": "https://dl.dropboxusercontent.com/s/02yy4l3tx1n36ux/Fang.png"
+    },
+    {
+        "id": "008",
+        "name": "Kelly",
+        "gender": "female",
+        "job": "Athlete",
+        "image": "https://dl.dropboxusercontent.com/s/mhkdhlrvs6tdjhu/Kelly.png"
+    }
+  ]
+}

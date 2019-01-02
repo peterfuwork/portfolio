@@ -1,0 +1,15 @@
+<div class="wrapper">
+    {{#characters}}
+        <section class="row profile-box">
+            <div class="profile-img-wrapper col-sm-4">
+                <img class="profile-img" src="{{image}}" width="100" />
+            </div>
+            <div class="col-sm-8 profile-info-wrapper">
+                <span><b>id:</b> {{id}}</span>
+                <div><b>name:</b> {{name}}</div>
+                <div><b>gender:</b> {{gender}}</div>
+                <div><b>job:</b> {{job}}</div>
+            </div>
+        </section>
+    {{/characters}}
+</div>
