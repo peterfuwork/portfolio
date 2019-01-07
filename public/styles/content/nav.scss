@@ -35,6 +35,7 @@ nav{
   }
   .menu {
     display:none;
+    color:#fff;
     @media(max-width:991px) {
       display: block;
     }

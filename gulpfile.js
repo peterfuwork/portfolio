@@ -21,6 +21,11 @@ gulp.task('sass', function(){
          .pipe(livereload());
  });
 
+ gulp.task('fonts', function() {
+    return gulp.src(['node_modules/font-awesome/fonts/*', 'public/styles/fonts/*'])
+        .pipe(gulp.dest('dist/fonts'))
+});
+
 // compile all js files
 gulp.task('minifyjs', function() {
     return gulp.src(['public/scripts/vendor/*.js' ,'public/scripts/**/*.js'])
@@ -59,6 +64,6 @@ gulp.task('connect', function() {
     });
 })
 
-gulp.task('default', ['sass', 'minifyjs','hbs','connect', 'watch']);
+gulp.task('default', ['sass', 'minifyjs','hbs','fonts','connect', 'watch']);
 
 console.log('--> gulpfile.js');
